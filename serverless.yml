@@ -1,5 +1,5 @@
 org: naveen3011
-app: sqs-lamda
+app: sqs-lambda
 service: First-project
 
 frameworkVersion: '3'
@@ -11,19 +11,21 @@ provider:
 functions:
   hello:
     handler: handler.hello
-
-plugins:
-  - serverless-lift
-
-constructs:
-  my-queue:
-    type: queue
-    worker:
-      handler: handler.hello
-
+    events:
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - MyQueue
+              - Arn
+          batchSize: 5
 
 resources:
   Resources:
+    MyQueue:
+      Type: AWS::SQS::Queue
+      Properties:
+        QueueName: MyQueue
+
     MyDynamoDBTable:
       Type: AWS::DynamoDB::Table
       Properties:
