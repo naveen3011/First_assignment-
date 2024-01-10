@@ -7,7 +7,7 @@ def send_message_to_sqs():
 
     # Message to be sent
     message_body = {
-        "userId": "9058",
+        "userId": "678",
         "name": "Naveen Kushwaha",
         "age": 21
     }
