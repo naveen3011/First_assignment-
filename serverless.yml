@@ -1,0 +1,39 @@
+org: naveen3011
+app: sqs-lamda
+service: First-project
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+
+functions:
+  hello:
+    handler: handler.hello
+
+plugins:
+  - serverless-lift
+
+constructs:
+  my-queue:
+    type: queue
+    worker:
+      handler: handler.hello
+
+
+resources:
+  Resources:
+    MyDynamoDBTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: demo-table2
+        AttributeDefinitions:
+          - AttributeName: userId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: userId
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 5
+          WriteCapacityUnits: 5
