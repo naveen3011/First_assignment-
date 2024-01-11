@@ -14,13 +14,13 @@ authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 
 # Screenshots Demonstrating Its functionality
 ### 1
-![1](https://raw.githubusercontent.com/naveen3011/First_assignment-/master/ScreenShot/Screenshot%202024-01-08%20at%205.23.55%E2%80%AFPM.png)
+![1](https://raw.githubusercontent.com/naveen3011/First_assignment-/master/ScreenShot/Screenshot%202024-01-08%20at%205.23.55%E2%80%AFPM.pg)
 ### 2
-![2](https://raw.githubusercontent.com/naveen3011/First_assignment-/master/ScreenShot/Screenshot%202024-01-08%20at%205.24.17%E2%80%AFPM.png)
+![2](https://raw.githubusercontent.com/naveen3011/First_assignment-/master/ScreenShot/Screenshot%202024-01-08%20at%205.24.17%E2%80%AFPM.pg)
 ### 3
-![3](https://raw.githubusercontent.com/naveen3011/First_assignment-/master/ScreenShot/Screenshot%202024-01-08%20at%205.24.33%E2%80%AFPM.png)
+![3](https://raw.githubusercontent.com/naveen3011/First_assignment-/master/ScreenShot/Screenshot%202024-01-08%20at%205.24.33%E2%80%AFPM.pg)
 ### 4
-![4](https://raw.githubusercontent.com/naveen3011/First_assignment-/master/ScreenShot/Screenshot%202024-01-08%20at%205.51.23%E2%80%AFPM.png)
+![4](https://raw.githubusercontent.com/naveen3011/First_assignment-/master/ScreenShot/Screenshot%202024-01-08%20at%205.51.23%E2%80%AFPM.pg)
 
 
 # Serverless Framework AWS Python Example
